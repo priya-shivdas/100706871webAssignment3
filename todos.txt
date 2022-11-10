@@ -1,0 +1,16 @@
+/////STEPS
+Make sure mongodb is set up correctly
+use assignmentDB
+//created mongodb
+db.assignments.insert({"name":"matrices test","class":"linear algebra","due":"2022-12-08T12:10:40.787","urgency":"low","description":"Matrices practice test"})
+//sample assignment, "due" date string. will be converted to date.
+db.assignments.insert({"name":"py final project","class":"python","due":"2022-12-16T12:10:40.787","urgency":"high","description":"Python final project"})
+/////REFERENCES
+Sample assignments
+https://www.varsitytutors.com/linear_algebra-practice-tests
+/////FEATURES
+- Sort by classes
+- Colour coded classes and urgency
+- Icon coded class and urgency
+- dates
+- secure file upload
